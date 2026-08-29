@@ -1,0 +1,28 @@
+import { Skill } from "@/lib/types";
+
+export const skills: Skill[] = [
+  { id: "sk-react", name: "React", category: "Frontend", demand: 4 },
+  { id: "sk-nextjs", name: "Next.js", category: "Frontend", demand: 3 },
+  { id: "sk-typescript", name: "TypeScript", category: "Frontend", demand: 5 },
+  { id: "sk-css", name: "CSS/Tailwind", category: "Frontend", demand: 3 },
+  { id: "sk-nodejs", name: "Node.js", category: "Backend", demand: 4 },
+  { id: "sk-python", name: "Python", category: "Backend", demand: 3 },
+  { id: "sk-fastapi", name: "FastAPI", category: "Backend", demand: 2 },
+  { id: "sk-postgres", name: "PostgreSQL", category: "Database", demand: 4 },
+  { id: "sk-mongodb", name: "MongoDB", category: "Database", demand: 2 },
+  { id: "sk-redis", name: "Redis", category: "Database", demand: 2 },
+  { id: "sk-aws", name: "AWS", category: "DevOps", demand: 3 },
+  { id: "sk-docker", name: "Docker", category: "DevOps", demand: 3 },
+  { id: "sk-k8s", name: "Kubernetes", category: "DevOps", demand: 2 },
+  { id: "sk-figma", name: "Figma", category: "Design", demand: 2 },
+  { id: "sk-ux", name: "UX Design", category: "Design", demand: 3 },
+  { id: "sk-ui", name: "UI Design", category: "Design", demand: 3 },
+  { id: "sk-ml", name: "Machine Learning", category: "AI/ML", demand: 2 },
+  { id: "sk-data", name: "Data Analysis", category: "AI/ML", demand: 2 },
+  { id: "sk-pm", name: "Project Management", category: "Management", demand: 3 },
+  { id: "sk-agile", name: "Agile/Scrum", category: "Management", demand: 4 },
+  { id: "sk-marketing", name: "Marketing Automation", category: "Marketing", demand: 1 },
+  { id: "sk-seo", name: "SEO", category: "Marketing", demand: 1 },
+  { id: "sk-qa", name: "QA Testing", category: "Quality", demand: 3 },
+  { id: "sk-security", name: "Security", category: "Security", demand: 2 },
+];
